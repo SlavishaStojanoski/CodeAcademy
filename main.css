@@ -1,0 +1,65 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.main-continer {
+    margin:12%;
+}
+.inputFild{
+    padding: 15px;
+    width: 75%;
+    border: 2px solid black;
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 20%;
+    font-size: 1em;
+    font-weight: bold;
+}
+.article {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.image{
+    padding: 20px;
+    width: 180px;
+}
+.atricleContent {
+    padding: 20px;
+}
+
+.grade{
+    border:1px solid black;
+    text-align: center;
+    padding: 15px;
+    width: 120px;
+    border-radius: 15px;
+    margin-left: -20px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.positive {
+    background-color: rgb(128, 226, 103);
+}
+.negative {
+    background-color: rgb(235, 31, 31);
+}
+h4 {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.artTitle {
+    tab-size: 4;
+}
